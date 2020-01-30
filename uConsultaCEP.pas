@@ -345,7 +345,6 @@ begin
     if Count > 0 then
       Result := Concat(Result, #13, #10, GetTitleRegistro(ACount),  #13, #10);
     Result := Result + AConsultaCEPEndereco.ToString;
-
     Inc(ACount);
   end;
 
